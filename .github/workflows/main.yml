@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     name: A job to say hello
     steps:
-      - name: Hello world action step
+      - name: Hello world action step22
         id: hello
         uses: otjake/actiontest@v0.1
         with:
