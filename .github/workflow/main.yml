@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: otjake/actiontest@v1
+        uses: otjake/actiontest@v0.1
         with:
           who-to-greet: 'Jake'
       # Use the output from the `hello` step
